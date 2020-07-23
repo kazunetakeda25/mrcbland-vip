@@ -1,0 +1,466 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+<head>
+  
+    <!-- Basic -->
+	<title>MRCBLand VIP</title>
+    
+    <!-- Define Charset -->
+	<meta charset="utf-8">
+    
+    <!-- Responsive MetaTag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Page Description and Author -->
+    <meta name="description" content="Relway - Responsive Parallax One Page Template">
+    <meta name="author" content="ZoOm Arts">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    
+    <!-- Bootstrap CSS Styles -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
+    
+    <!-- Plugins CSS Styles -->
+    <link rel="stylesheet" href="css/plugins.css" type="text/css" media="screen">
+  
+    <!-- Relway CSS Styles -->
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+  
+    <!-- Responsive CSS Styles -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+    
+    <!-- Css3 Animations Styles -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
+  
+    <!-- Icons Font CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="css/icons.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen">
+    
+    <!-- Color CSS Styles -->
+	<link rel="stylesheet" type="text/css" href="css/colors/chrome-orange.css" media="screen">
+    
+    <!-- Custom CSS Styles -->
+	<link rel="stylesheet" type="text/css" href="css/custom.css" media="screen">
+     
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+	<!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	
+</head>
+<style>
+    table { 
+        width: 100%; 
+        border-collapse: collapse; 
+    }
+
+    th { 
+        font-weight: 600; 
+    }
+
+    td, th { 
+        padding: 6px; 
+        border: 1px solid #777; 
+        text-align: left; 
+        font-size: 20px;
+    }
+
+    tr:nth-child(2) {
+        background-color: #CA7E56;
+        color: white;
+    }
+    tr:nth-child(3) {
+        background-color: #969A9B;
+        color: white;
+    }
+    tr:nth-child(4) {
+        background-color: #EFCA77;
+        color: white;
+    }
+    tr:nth-child(5) {
+        background-color: #B9AB90;
+        color: white;
+    }
+    tr:nth-child(6) {
+        background-color: #373738;
+        color: white;
+    }
+
+    @media only screen and (max-width: 760px),
+        (min-device-width: 768px) and (max-device-width: 1024px)  {
+
+        /* Force table to not be like tables anymore */
+        table, thead, tbody, th, td, tr { 
+            display: block; 
+        }
+        
+        /* Hide table headers (but not display: none;, for accessibility) */
+        thead tr { 
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+        
+        tr { border: 1px solid #ccc; }
+        
+        td { 
+            /* Behave  like a "row" */
+            border: none;
+            border-bottom: 1px solid #eee; 
+            position: relative;
+            padding-left: 50%; 
+        }
+        
+        td:before { 
+            /* Now like a table header */
+            position: absolute;
+            /* Top/left values mimic padding */
+            top: 6px;
+            left: 6px;
+            width: 45%; 
+            padding-right: 10px; 
+            white-space: nowrap;
+        }
+	
+        td:nth-of-type(1):before { content: ""; }
+        td:nth-of-type(2):before { content: "Price"; }
+        td:nth-of-type(3):before { content: "Rebates"; }
+        td:nth-of-type(4):before { content: "Reward"; }
+        td:nth-of-type(5):before { content: "Retail Rewards"; }
+        td:nth-of-type(6):before { content: "Priority Invitation"; }
+    }
+    </style>
+<body>
+
+<!-- Page Loader -->
+<div id="pageloader" class="dark">
+    <div class="loader-container">
+        <div class="loader-logo"><img src="images/logo.png" alt="" style="height: 20px; width: auto; object-fit: contain;"/></div>
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div> 
+    </div>
+</div>
+    
+
+    
+<!-- Start Header -->
+<header id="header" class="header-2 dark-header sticky">
+
+        <div style="margin-left: 30px; margin-right: 30px">
+        <!-- Logo -->
+        <div id="logo">
+            <a href="./index.html"><img alt="" src="images/logo.png" style="height: 30px;"/></a>
+        </div>
+        
+        <!-- Toggle Menu - Responsive -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-menu"><i class="icon-menu2"></i></button>
+        
+        <!-- Navigation Menu -->
+        <div id="nav-menu" class="nav-menu collapse navbar-collapse">
+            <ul>
+                <li><a href="./index.html#home">HOME</a></li>
+                <li><a href="./index.html#tiers">TIERS</a></li>
+                <li><a href="./index.html#rewards">REWARDS</a></li>
+                <li><a href="./index.html#register-vip">REGISTER</a></li>
+                <li><a href="./tnc.html">VIP T&C</a></li>
+                <li class="active"><a href="./faq.html">FAQ</a></li>
+                <li><a href="./mia.html">MIA</a></li>
+            </ul>
+        </div>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Start Page Header -->
+<div id="page-header" class="page-header parallax-full dark-section text-center" style="background: url(./images/home1.png) no-repeat;
+margin-top: 60px;
+background-position: top;">
+    
+    <div class="container">
+        <h2>MLVIP FAQ</h2>
+    </div>
+    
+</div>
+<!-- End Page Header -->
+    
+<!-- Start Container -->
+<div class="container blog-container standard-layout with-sidebar">
+    
+    <div class="row">
+        
+        <!-- Start Posts Area -->
+        <div class="col-md-12 posts">
+
+            <div class="post" id="faq-1">
+                <div class="post-right">
+                    <div class="post-head">
+                        <h3><a href="#faq-1">What is MLVIP?</a></h3>
+                    </div>
+                    <div class="post-content">
+                        <p>The MRCB Land VIP Loyalty Programme rewards customers who have
+                        purchased properties from MRCB Land. The loyalty card comes in five different
+                        tiers based on the total accumulated sum of your property purchase(s) price.</p>
+                    </div>
+                </div>
+                <div class="post-date"><span class="day">1</span></div>
+            </div>
+            
+            <div class="post" id="faq-2">
+                <div class="post-right">
+                    <div class="post-head">
+                        <h3><a href="#faq-2">Who is eligible for the MLVIP Programme?</a></h3>
+                    </div>
+                    <div class="post-content">
+                        <p>
+                            <li>Individuals, joint-purchasers and companies who have directly purchased
+                            MRCB Land Property(ies).</li>
+                            <li>For joint-purchasers, the membership will be awarded to up to four (4)
+                            purchasers listed in the SPA.</li>
+                            <li>Where a company purchases MRCB Land Property(ies) (“Company”), the
+                            membership of MLVIP will be issued directly to the Company and the
+                            Company will have their own MLVIP account.</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="post-date"><span class="day">2</span></div>
+            </div>
+
+            <div class="post" id="faq-3">
+                <div class="post-right">
+                    <div class="post-head">
+                        <h3><a href="#faq-3">What are the MLVIP tiers and rewards?</a></h3>
+                    </div>
+                    <div class="post-content">
+                        <p>The MLVIP Loyalty Card tiers are as follows:</p>
+                        <br>
+                        <table style="border: 1px solid #777; border-collapse: collapse; padding: 10px;">
+                            <tr>
+                                <th></th>
+                                <th>Existing Property Purchase Price</th>
+                                <th>Privilege Rebates for Property Purchase</th>
+                                <th>Introducer Reward</th>
+                                <th>Retail Rewards (TBA)</th>
+                                <th>Priority Invitation to Previews and Launches</th>
+                            </tr>
+                            <tr>
+                                <td>Bronze</td>
+                                <td>Below 499,999</td>
+                                <td>0.5%</td>
+                                <td>1%</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>Silver</td>
+                                <td>RM500,000 - RM999,999</td>
+                                <td>1%</td>
+                                <td>1%</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>Gold</td>
+                                <td>RM1,000,000 - RM3,999,999</td>
+                                <td>2%</td>
+                                <td>1%</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>Platinum</td>
+                                <td>RM4,000,000 - RM7,999,999</td>
+                                <td>3%</td>
+                                <td>1%</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>Black</td>
+                                <td>RM8,000,000 and above</td>
+                                <td>5%</td>
+                                <td>1%</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="post-date"><span class="day">3</span></div>
+            </div>
+
+            <div class="post" id="faq-4">
+                <div class="post-right">
+                    <div class="post-head">
+                        <h3><a href="#faq-4">How will I receive my card?</a></h3>
+                    </div>
+                    <div class="post-content">
+                        <p>Your digital card will be sent to you via email when you have successfully
+                        registered via the MLVIP website. If you have not received your card, please
+                        update your information accordingly. </p>
+                    </div>
+                </div>
+                <div class="post-date"><span class="day">4</span></div>
+            </div>
+
+            <div class="post" id="faq-5">
+                <div class="post-right">
+                    <div class="post-head">
+                        <h3><a href="#faq-4">Is my membership upgradable?</a></h3>
+                    </div>
+                    <div class="post-content">
+                        <p>Yes, your next property purchase amount will be added to your total. Once your
+                        amount exceeds your current tier, you will be upgraded to the next tier and the
+                        digital card will be issued accordingly.
+                        </p>
+                    </div>
+                </div>
+                <div class="post-date"><span class="day">5</span></div>
+            </div>
+
+            <div class="post" id="faq-6">
+                <div class="post-right">
+                    <div class="post-head">
+                        <h3><a href="#faq-6">Is my membership transferable?</a></h3>
+                    </div>
+                    <div class="post-content">
+                        <p>The MLVIP membership is only valid for the individual(s)/company(ies) listed in
+                        the SPA, the privileges are non-transferable. 
+                        </p>
+                    </div>
+                </div>
+                <div class="post-date"><span class="day">6</span></div>
+            </div>
+
+            <div class="post" id="faq-7">
+                <div class="post-right">
+                    <div class="post-head">
+                        <h3><a href="#faq-7">Will sub-sale purchasers be eligible for the membership?</a></h3>
+                    </div>
+                    <div class="post-content">
+                        <p>No. The MLVIP membership is only awarded to purchasers which have bought
+                        MRCB Land Property(ies) directly from MRCB Land.                                
+                        </p>
+                    </div>
+                </div>
+                <div class="post-date"><span class="day">7</span></div>
+            </div>
+
+            <div class="post" id="faq-8">
+                <div class="post-right">
+                    <div class="post-head">
+                        <h3><a href="#faq-8">How do I use my membership when I make my next property purchase?</a></h3>
+                    </div>
+                    <div class="post-content">
+                        <p>Just flash your MLVIP digital card to the sales personnel for verification to enjoy
+                        your privileged rebate.                         
+                        </p>
+                    </div>
+                </div>
+                <div class="post-date"><span class="day">8</span></div>
+            </div>
+
+            <div class="post" id="faq-9">
+                <div class="post-right">
+                    <div class="post-head">
+                        <h3><a href="#faq-9">What is the validity of the MLVIP membership?</a></h3>
+                    </div>
+                    <div class="post-content">
+                        <p>There is no expiry to the membership.                   
+                        </p>
+                    </div>
+                </div>
+                <div class="post-date"><span class="day">9</span></div>
+            </div>
+
+            <div class="post" id="faq-10">
+                <div class="post-right">
+                    <div class="post-head">
+                        <h3><a href="#faq-10">Any more questions? </a></h3>
+                    </div>
+                    <div class="post-content">
+                        <p>Our VIP team will be in touch with you. Should you have any questions, call 03-
+                        2786 8080 or email us at mrcbland@mrcb.com           
+                        </p>
+                    </div>
+                </div>
+                <div class="post-date"><span class="day">10</span></div>
+            </div>
+        </div>
+        <!-- End Posts Area -->
+        
+    </div>
+    
+</div>
+<!-- End Container -->
+    
+    
+    
+<!-- Start Footer -->
+<div id="footer" class="section footer-section light-section">
+    
+    <a href="#home" id="goTop" class="scroll-to"><i class="icon-arrow-up11"></i></a>
+
+	<div class="container">
+    
+    	<div class="row">
+        
+        	<div class="col-md-12">
+                <!-- Footer Logo -->
+            	<div class="logo-img"><a href="./index.html"><img alt="" src="images/logo.png" style="height: 40px;"/></a></div>
+                
+                <!-- Copyright -->
+                <div class="copyright">All rights reserved. Copyright © 2019 <a class="accent-color" href="https://mrcbland.com.my/">MRCB Land</a></div>
+                <!-- Social Icons -->
+                <div class="social-icons">
+                	<ul>
+                    	<li><a href="https://www.facebook.com/MyMRCBLand/"><i class="icon-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/mrcb"><i class="icon-linkedin4"></i></a></li>
+                        <li><a href="https://www.instagram.com/mrcb.group/"><i class="icon-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        
+        </div>
+    
+    </div>
+    
+</div>
+<!-- End Footer -->
+
+
+<!-- Main JS  -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.migrate.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.outside-events.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="js/jquery.parallax.js"></script>
+<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="twitter/jquery.tweet.min.js"></script>
+<script type="text/javascript" src="js/jquery.appear.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="js/counter.js"></script>
+<script type="text/javascript" src="js/imagesloaded.min.js"></script>
+<script type="text/javascript" src="js/smooth-scroll.js"></script>
+<script type="text/javascript" src="js/contact-form.js"></script>
+<script type="text/javascript" src="js/portfolio.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+    
+</body>
+</html>
